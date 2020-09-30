@@ -12,9 +12,9 @@ const { map: FieldMap, testMap: TestFieldMap } = require("./ObjectFieldMap");
 			Object.entries(TestFieldMap[objectKey]).forEach(([field, valueFn]) => {
 				fields[field] = valueFn();
 			});
-			console.log(fields);
+			console.log(`Field ready to be inserted in ${objectKey}:\n`, fields);
 			promises.push(
-				fetch(`${URL}/services/data/v47.0/sobjects/${objectKey}`, {
+				fetch(`${URL}/services/data/v37.0/sobjects/${objectKey}`, {
 					method: `post`,
 					headers: {
 						Authorization: `Bearer ${TOKEN}`,
@@ -26,6 +26,7 @@ const { map: FieldMap, testMap: TestFieldMap } = require("./ObjectFieldMap");
 				.then(res => res.json())
 				.then(res => {
 					if(!res.success) throw new Error(`Something went wrong: ${JSON.stringify(res)}`);
+					console.log(`Success response received:`, res);
 				})
 			);
 		}
@@ -35,5 +36,5 @@ const { map: FieldMap, testMap: TestFieldMap } = require("./ObjectFieldMap");
 			console.error(`Error while updating fields for Object ${objectKey}\n${e}`);
 		}
 	}
-	
+
 })();
