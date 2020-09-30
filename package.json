@@ -1,0 +1,14 @@
+{
+  "name": "salesforce_faker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+  	"start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}

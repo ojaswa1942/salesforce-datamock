@@ -1,0 +1,823 @@
+name: AcceptedEventRelation
+name: Account
+Object: Account, Found the PII: Account Name, type: string
+Object: Account, Found the PII: Billing Address, type: address
+Object: Account, Found the PII: Shipping Address, type: address
+Object: Account, Found the PII: Account Phone, type: phone
+Object: Account, Found the PII: Last Activity, type: date
+Object: Account, Found the PII: Jigsaw Company ID, type: string
+name: AccountCleanInfo
+Object: AccountCleanInfo, Found the PII: Account Clean Info Name, type: string
+Object: AccountCleanInfo, Found the PII: Company Name, type: string
+Object: AccountCleanInfo, Found the PII: Company Name, type: string
+Object: AccountCleanInfo, Found the PII: Phone, type: phone
+Object: AccountCleanInfo, Found the PII: Address, type: address
+Object: AccountCleanInfo, Found the PII: D&B Company D-U-N-S Number, type: string
+Object: AccountCleanInfo, Found the PII: Company Status per Data.com, type: picklist
+name: AccountContactRole
+name: AccountFeed
+name: AccountHistory
+name: AccountPartner
+name: AccountShare
+name: ActionLinkGroupTemplate
+Object: ActionLinkGroupTemplate, Found the PII: Developer Name, type: string
+Object: ActionLinkGroupTemplate, Found the PII: Master Language, type: picklist
+Object: ActionLinkGroupTemplate, Found the PII: Name, type: string
+name: ActionLinkTemplate
+name: ActivityHistory
+name: AdditionalNumber
+Object: AdditionalNumber, Found the PII: Name, type: string
+Object: AdditionalNumber, Found the PII: Phone, type: phone
+name: AggregateResult
+name: Announcement
+name: ApexClass
+Object: ApexClass, Found the PII: Name, type: string
+name: ApexComponent
+Object: ApexComponent, Found the PII: Name, type: string
+name: ApexEmailNotification
+Object: ApexEmailNotification, Found the PII: email, type: string
+name: ApexLog
+name: ApexPage
+Object: ApexPage, Found the PII: Name, type: string
+name: ApexPageInfo
+Object: ApexPageInfo, Found the PII: Apex Page ID, type: string
+Object: ApexPageInfo, Found the PII: Name, type: string
+Object: ApexPageInfo, Found the PII: Name Space Prefix, type: string
+name: ApexTestQueueItem
+name: ApexTestResult
+Object: ApexTestResult, Found the PII: Method Name, type: string
+Object: ApexTestResult, Found the PII: Error Message, type: string
+name: ApexTestResultLimits
+Object: ApexTestResultLimits, Found the PII: Total number of sendEmail methods allowed, type: int
+name: ApexTestRunResult
+Object: ApexTestRunResult, Found the PII: Name of the job, type: string
+name: ApexTestSuite
+Object: ApexTestSuite, Found the PII: Test Suite Name, type: string
+name: ApexTrigger
+Object: ApexTrigger, Found the PII: Name, type: string
+name: AppMenuItem
+Object: AppMenuItem, Found the PII: Developer Name, type: string
+Object: AppMenuItem, Found the PII: Mobile Start Url, type: url
+Object: AppMenuItem, Found the PII: Logo Image URL, type: url
+Object: AppMenuItem, Found the PII: Mobile device OS platform, type: picklist
+Object: AppMenuItem, Found the PII: Mobile device OS platform, type: picklist
+Object: AppMenuItem, Found the PII: Minimum required mobile device OS version, type: string
+Object: AppMenuItem, Found the PII: Minimum required mobile device OS version, type: string
+Object: AppMenuItem, Found the PII: Type of mobile device, type: string
+Object: AppMenuItem, Found the PII: Type of mobile device, type: string
+Object: AppMenuItem, Found the PII: Version of the mobile app, type: string
+Object: AppMenuItem, Found the PII: Most recently installed version of the mobile app, type: string
+Object: AppMenuItem, Found the PII: ID for the related mobile app binary, type: string
+Object: AppMenuItem, Found the PII: URL to install the mobile app, type: url
+name: Asset
+Object: Asset, Found the PII: Asset Name, type: string
+Object: Asset, Found the PII: Usage End Date, type: date
+name: AssetFeed
+name: AssetHistory
+name: AssetShare
+name: AssignmentRule
+Object: AssignmentRule, Found the PII: Name, type: string
+name: AsyncApexJob
+Object: AsyncApexJob, Found the PII: Last ID processed and committed, type: string
+Object: AsyncApexJob, Found the PII: Offset of last ID processed and committed, type: int
+name: AttachedContentDocument
+name: Attachment
+Object: Attachment, Found the PII: File Name, type: string
+name: AuraDefinition
+name: AuraDefinitionBundle
+Object: AuraDefinitionBundle, Found the PII: Name, type: string
+Object: AuraDefinitionBundle, Found the PII: Master Language, type: picklist
+name: AuraDefinitionBundleInfo
+Object: AuraDefinitionBundleInfo, Found the PII: Bundle Name, type: string
+name: AuraDefinitionInfo
+Object: AuraDefinitionInfo, Found the PII: Bundle Name, type: string
+name: AuthConfig
+Object: AuthConfig, Found the PII: Name, type: string
+Object: AuthConfig, Found the PII: Master Language, type: picklist
+name: AuthConfigProviders
+name: AuthProvider
+Object: AuthProvider, Found the PII: Name, type: string
+name: AuthSession
+name: BackgroundOperation
+Object: BackgroundOperation, Found the PII: Background Operation Name, type: string
+name: BrandTemplate
+Object: BrandTemplate, Found the PII: Brand Template Name, type: string
+Object: BrandTemplate, Found the PII: Letterhead Unique Name, type: string
+name: BusinessHours
+Object: BusinessHours, Found the PII: Business Hours Name, type: string
+name: BusinessProcess
+Object: BusinessProcess, Found the PII: Name, type: string
+name: CallCenter
+Object: CallCenter, Found the PII: Name, type: string
+Object: CallCenter, Found the PII: Internal Name, type: string
+name: Campaign
+Object: Campaign, Found the PII: Name, type: string
+Object: Campaign, Found the PII: Last Activity, type: date
+name: CampaignFeed
+name: CampaignHistory
+name: CampaignMember
+Object: CampaignMember, Found the PII: First Responded Date, type: date
+Object: CampaignMember, Found the PII: Name, type: string
+Object: CampaignMember, Found the PII: First Name, type: string
+Object: CampaignMember, Found the PII: First Name, type: string
+Object: CampaignMember, Found the PII: Last Name, type: string
+Object: CampaignMember, Found the PII: Last Name, type: string
+Object: CampaignMember, Found the PII: Email, type: email
+Object: CampaignMember, Found the PII: Phone, type: phone
+Object: CampaignMember, Found the PII: Mobile, type: phone
+Object: CampaignMember, Found the PII: Company (Account), type: string
+name: CampaignMemberStatus
+name: CampaignShare
+name: Case
+Object: Case, Found the PII: Name, type: string
+Object: Case, Found the PII: Email Address, type: email
+Object: Case, Found the PII: Email Address, type: email
+Object: Case, Found the PII: Phone, type: string
+Object: Case, Found the PII: Company, type: string
+name: CaseComment
+name: CaseContactRole
+name: CaseFeed
+name: CaseHistory
+name: CaseShare
+name: CaseSolution
+name: CaseStatus
+Object: CaseStatus, Found the PII: Api Name, type: string
+name: CaseTeamMember
+name: CaseTeamRole
+Object: CaseTeamRole, Found the PII: Name, type: string
+name: CaseTeamTemplate
+Object: CaseTeamTemplate, Found the PII: Name, type: string
+name: CaseTeamTemplateMember
+name: CaseTeamTemplateRecord
+name: CategoryData
+name: CategoryNode
+Object: CategoryNode, Found the PII: Name, type: string
+name: ChatterActivity
+name: ClientBrowser
+Object: ClientBrowser, Found the PII: Full User Agent, type: string
+name: CollaborationGroup
+Object: CollaborationGroup, Found the PII: Name, type: string
+Object: CollaborationGroup, Found the PII: Group Email, type: email
+name: CollaborationGroupFeed
+name: CollaborationGroupMember
+name: CollaborationGroupMemberRequest
+Object: CollaborationGroupMemberRequest, Found the PII: Response Message, type: string
+name: CollaborationGroupRecord
+name: CollaborationInvitation
+Object: CollaborationInvitation, Found the PII: Invited Email, type: string
+Object: CollaborationInvitation, Found the PII: Invited Email (Normalized), type: email
+Object: CollaborationInvitation, Found the PII: Optional Message, type: string
+name: CombinedAttachment
+name: Community
+Object: Community, Found the PII: Name, type: string
+name: ConferenceNumber
+Object: ConferenceNumber, Found the PII: Name, type: string
+name: ConnectedApplication
+Object: ConnectedApplication, Found the PII: Connected App Name, type: string
+Object: ConnectedApplication, Found the PII: Mobile Start URL, type: url
+name: Contact
+Object: Contact, Found the PII: Last Name, type: string
+Object: Contact, Found the PII: Last Name, type: string
+Object: Contact, Found the PII: First Name, type: string
+Object: Contact, Found the PII: First Name, type: string
+Object: Contact, Found the PII: Full Name, type: string
+Object: Contact, Found the PII: Other Address, type: address
+Object: Contact, Found the PII: Mailing Address, type: address
+Object: Contact, Found the PII: Business Phone, type: phone
+Object: Contact, Found the PII: Mobile Phone, type: phone
+Object: Contact, Found the PII: Mobile Phone, type: phone
+Object: Contact, Found the PII: Home Phone, type: phone
+Object: Contact, Found the PII: Other Phone, type: phone
+Object: Contact, Found the PII: Asst. Phone, type: phone
+Object: Contact, Found the PII: Email, type: email
+Object: Contact, Found the PII: Assistant's Name, type: string
+Object: Contact, Found the PII: Birthdate, type: date
+Object: Contact, Found the PII: Last Activity, type: date
+Object: Contact, Found the PII: Email Bounced Reason, type: string
+Object: Contact, Found the PII: Languages, type: string
+name: ContactCleanInfo
+Object: ContactCleanInfo, Found the PII: Contact Clean Info Name, type: string
+Object: ContactCleanInfo, Found the PII: First Name, type: string
+Object: ContactCleanInfo, Found the PII: First Name, type: string
+Object: ContactCleanInfo, Found the PII: Last Name, type: string
+Object: ContactCleanInfo, Found the PII: Last Name, type: string
+Object: ContactCleanInfo, Found the PII: Email, type: email
+Object: ContactCleanInfo, Found the PII: Phone, type: phone
+Object: ContactCleanInfo, Found the PII: Address, type: address
+name: ContactFeed
+name: ContactHistory
+name: ContactShare
+name: ContentDistribution
+Object: ContentDistribution, Found the PII: Content Delivery Name, type: string
+Object: ContentDistribution, Found the PII: Password, type: string
+name: ContentDistributionView
+name: ContentDocument
+name: ContentDocumentFeed
+name: ContentDocumentHistory
+name: ContentDocumentLink
+name: ContentFolder
+Object: ContentFolder, Found the PII: Name, type: string
+name: ContentFolderItem
+name: ContentFolderLink
+name: ContentFolderMember
+name: ContentVersion
+name: ContentVersionHistory
+name: ContentWorkspace
+Object: ContentWorkspace, Found the PII: Name, type: string
+name: ContentWorkspaceDoc
+name: Contract
+Object: Contract, Found the PII: Billing Address, type: address
+Object: Contract, Found the PII: Company Signed Date, type: date
+Object: Contract, Found the PII: Last Activity, type: date
+name: ContractContactRole
+name: ContractFeed
+name: ContractHistory
+name: ContractStatus
+Object: ContractStatus, Found the PII: Api Name, type: string
+name: CorsWhitelistEntry
+Object: CorsWhitelistEntry, Found the PII: Name, type: string
+Object: CorsWhitelistEntry, Found the PII: Master Language, type: picklist
+name: CronJobDetail
+Object: CronJobDetail, Found the PII: Job Name, type: string
+name: CronTrigger
+name: CustomBrand
+name: CustomBrandAsset
+name: CustomObjectUserLicenseMetrics
+Object: CustomObjectUserLicenseMetrics, Found the PII: Custom Object Name, type: string
+name: CustomPermission
+Object: CustomPermission, Found the PII: Name, type: string
+Object: CustomPermission, Found the PII: Master Language, type: picklist
+name: CustomPermissionDependency
+name: DandBCompany
+Object: DandBCompany, Found the PII: Primary Business Name, type: string
+Object: DandBCompany, Found the PII: Street Address, type: textarea
+Object: DandBCompany, Found the PII: Primary Address, type: address
+Object: DandBCompany, Found the PII: Telephone Number, type: phone
+Object: DandBCompany, Found the PII: Mailing Street Address, type: textarea
+Object: DandBCompany, Found the PII: Mailing Address, type: address
+Object: DandBCompany, Found the PII: Global Ultimate Business Name, type: string
+Object: DandBCompany, Found the PII: Parent Company D-U-N-S Number, type: string
+Object: DandBCompany, Found the PII: Parent Company Business Name, type: string
+Object: DandBCompany, Found the PII: Parent Company Business Name, type: string
+Object: DandBCompany, Found the PII: Domestic Ultimate Business Name, type: string
+Object: DandBCompany, Found the PII: Company Description, type: textarea
+name: Dashboard
+Object: Dashboard, Found the PII: Folder Name, type: string
+Object: Dashboard, Found the PII: Dashboard Unique Name, type: string
+Object: Dashboard, Found the PII: Last refreshed for this user, type: string
+name: DashboardComponent
+Object: DashboardComponent, Found the PII: Dashboard Component Name, type: string
+name: DashboardComponentFeed
+name: DashboardFeed
+name: DataAssessmentFieldMetric
+Object: DataAssessmentFieldMetric, Found the PII: Field Name, type: string
+name: DataAssessmentMetric
+name: DataAssessmentValueMetric
+name: DataStatistics
+name: DataType
+Object: DataType, Found the PII: Data Type Name, type: string
+name: DatacloudAddress
+Object: DatacloudAddress, Found the PII: Data.com Address ID, type: string
+Object: DatacloudAddress, Found the PII:  Address Line 1 , type: string
+Object: DatacloudAddress, Found the PII:  Address Line 2 , type: string
+name: DatacloudCompany
+Object: DatacloudCompany, Found the PII: Data.com Company ID, type: string
+Object: DatacloudCompany, Found the PII: Data.com Company ID, type: string
+Object: DatacloudCompany, Found the PII: Company Name, type: string
+Object: DatacloudCompany, Found the PII: Company Name, type: string
+Object: DatacloudCompany, Found the PII: Company Synopsis, type: string
+Object: DatacloudCompany, Found the PII: Phone Number, type: phone
+Object: DatacloudCompany, Found the PII: Street Address, type: string
+Object: DatacloudCompany, Found the PII: Company or Website, type: url
+Object: DatacloudCompany, Found the PII: Company Founding Date, type: string
+Object: DatacloudCompany, Found the PII: Address, type: string
+name: DatacloudContact
+Object: DatacloudContact, Found the PII: Company Id, type: string
+Object: DatacloudContact, Found the PII: Company, type: string
+Object: DatacloudContact, Found the PII: First name, type: string
+Object: DatacloudContact, Found the PII: First name, type: string
+Object: DatacloudContact, Found the PII: Last name, type: string
+Object: DatacloudContact, Found the PII: Last name, type: string
+Object: DatacloudContact, Found the PII: Phone, type: phone
+Object: DatacloudContact, Found the PII: Email, type: email
+Object: DatacloudContact, Found the PII: Street Address, type: string
+name: DatacloudDandBCompany
+Object: DatacloudDandBCompany, Found the PII: D&B Company ID, type: string
+Object: DatacloudDandBCompany, Found the PII: D&B Company Name, type: string
+Object: DatacloudDandBCompany, Found the PII: D&B Company Name, type: string
+Object: DatacloudDandBCompany, Found the PII: D&B Company ID, type: string
+Object: DatacloudDandBCompany, Found the PII: Street Address, type: string
+Object: DatacloudDandBCompany, Found the PII: Telephone Number, type: phone
+Object: DatacloudDandBCompany, Found the PII: Mailing Street Address, type: string
+Object: DatacloudDandBCompany, Found the PII: Global Ultimate Business Name, type: string
+Object: DatacloudDandBCompany, Found the PII: Parent Company D-U-N-S Number, type: string
+Object: DatacloudDandBCompany, Found the PII: Parent Company Business Name, type: string
+Object: DatacloudDandBCompany, Found the PII: Parent Company Business Name, type: string
+Object: DatacloudDandBCompany, Found the PII: Domestic Ultimate Business Name, type: string
+Object: DatacloudDandBCompany, Found the PII: Company Description, type: string
+Object: DatacloudDandBCompany, Found the PII: Address, type: string
+name: DatacloudOwnedEntity
+name: DatacloudPurchaseUsage
+Object: DatacloudPurchaseUsage, Found the PII: Data.com Usage Type, type: picklist
+name: DeclinedEventRelation
+name: Document
+Object: Document, Found the PII: Document Name, type: string
+Object: Document, Found the PII: Document Unique Name, type: string
+name: DocumentAttachmentMap
+name: Domain
+Object: Domain, Found the PII: Domain Name, type: string
+name: DomainSite
+name: DuplicateRecordItem
+Object: DuplicateRecordItem, Found the PII: Duplicate Record Item Name, type: string
+name: DuplicateRecordSet
+Object: DuplicateRecordSet, Found the PII: Duplicate Record Set Name, type: string
+name: DuplicateRule
+Object: DuplicateRule, Found the PII: Object Name, type: string
+Object: DuplicateRule, Found the PII: Master Language, type: picklist
+Object: DuplicateRule, Found the PII: Rule Name, type: string
+name: EmailDomainKey
+name: EmailMessage
+Object: EmailMessage, Found the PII: From Name, type: string
+Object: EmailMessage, Found the PII: From Address, type: email
+Object: EmailMessage, Found the PII: To Address, type: string
+Object: EmailMessage, Found the PII: CC Address, type: string
+Object: EmailMessage, Found the PII: BCC Address, type: string
+name: EmailMessageRelation
+Object: EmailMessageRelation, Found the PII: Relation Address, type: string
+name: EmailServicesAddress
+Object: EmailServicesAddress, Found the PII: Email address, type: string
+Object: EmailServicesAddress, Found the PII: Email address, type: string
+Object: EmailServicesAddress, Found the PII: Email address domain, type: string
+Object: EmailServicesAddress, Found the PII: Email address domain, type: string
+Object: EmailServicesAddress, Found the PII: Accept Email From, type: textarea
+name: EmailServicesFunction
+Object: EmailServicesFunction, Found the PII: Email Service Name, type: string
+Object: EmailServicesFunction, Found the PII: Email Service Name, type: string
+Object: EmailServicesFunction, Found the PII: Accept Email From, type: textarea
+Object: EmailServicesFunction, Found the PII: Over Email Rate Limit Action, type: picklist
+Object: EmailServicesFunction, Found the PII: Deactivated Email Service Action, type: picklist
+Object: EmailServicesFunction, Found the PII: Deactivated Email Address Action, type: picklist
+Object: EmailServicesFunction, Found the PII: Deactivated Email Address Action, type: picklist
+Object: EmailServicesFunction, Found the PII: Route Error Emails to This Email Address, type: email
+Object: EmailServicesFunction, Found the PII: Route Error Emails to This Email Address, type: email
+name: EmailStatus
+Object: EmailStatus, Found the PII: Email Template Name, type: string
+Object: EmailStatus, Found the PII: Email Template Name, type: string
+name: EmailTemplate
+Object: EmailTemplate, Found the PII: Email Template Name, type: string
+Object: EmailTemplate, Found the PII: Email Template Name, type: string
+Object: EmailTemplate, Found the PII: Template Unique Name, type: string
+Object: EmailTemplate, Found the PII: Email Body, type: textarea
+name: EntityDefinition
+Object: EntityDefinition, Found the PII: Qualified API Name, type: string
+Object: EntityDefinition, Found the PII: Developer Name, type: string
+Object: EntityDefinition, Found the PII: Help Setting Page Name, type: string
+Object: EntityDefinition, Found the PII: Help Setting Page Name, type: string
+Object: EntityDefinition, Found the PII: Help Setting Page URL, type: url
+name: EntityParticle
+Object: EntityParticle, Found the PII: Qualified API Name, type: string
+Object: EntityParticle, Found the PII: Developer Name, type: string
+Object: EntityParticle, Found the PII: Relationship Name, type: string
+Object: EntityParticle, Found the PII: Name, type: string
+name: EntitySubscription
+name: Event
+name: EventFeed
+name: EventLogFile
+Object: EventLogFile, Found the PII: Log File Field Names, type: string
+name: EventRelation
+name: ExternalDataSource
+Object: ExternalDataSource, Found the PII: Name, type: string
+Object: ExternalDataSource, Found the PII: Master Language, type: picklist
+name: ExternalDataUserAuth
+Object: ExternalDataUserAuth, Found the PII: Username, type: string
+Object: ExternalDataUserAuth, Found the PII: Password, type: textarea
+name: ExternalEvent
+Object: ExternalEvent, Found the PII: Name, type: string
+name: ExternalEventMapping
+Object: ExternalEventMapping, Found the PII: Name, type: string
+name: ExternalEventMappingShare
+name: FeedAttachment
+name: FeedComment
+name: FeedItem
+name: FeedLike
+name: FeedPollChoice
+name: FeedPollVote
+name: FeedRevision
+name: FeedTrackedChange
+name: FieldDefinition
+Object: FieldDefinition, Found the PII: Qualified API Name, type: string
+Object: FieldDefinition, Found the PII: Developer Name, type: string
+Object: FieldDefinition, Found the PII: Relationship Name, type: string
+name: FieldPermissions
+Object: FieldPermissions, Found the PII: SObject Type Name, type: picklist
+Object: FieldPermissions, Found the PII: Field Name, type: picklist
+name: FiscalYearSettings
+Object: FiscalYearSettings, Found the PII: Name, type: string
+Object: FiscalYearSettings, Found the PII: Quarter Name Scheme, type: picklist
+Object: FiscalYearSettings, Found the PII: Period Name Scheme, type: picklist
+Object: FiscalYearSettings, Found the PII: Week Name Scheme, type: picklist
+name: FlexQueueItem
+name: FlowInterview
+Object: FlowInterview, Found the PII: Name, type: string
+name: FlowInterviewShare
+name: Folder
+Object: Folder, Found the PII: Name, type: string
+Object: Folder, Found the PII: Folder Unique Name, type: string
+name: FolderedContentDocument
+name: GrantedByLicense
+name: Group
+Object: Group, Found the PII: Name, type: string
+Object: Group, Found the PII: Developer Name, type: string
+Object: Group, Found the PII: Email, type: email
+name: GroupMember
+name: Holiday
+Object: Holiday, Found the PII: Holiday Name, type: string
+name: Idea
+Object: Idea, Found the PII: Name of Creator, type: string
+name: IdeaComment
+Object: IdeaComment, Found the PII: Name of Creator, type: string
+name: InstalledMobileApp
+Object: InstalledMobileApp, Found the PII: Installed Mobile App Name, type: string
+Object: InstalledMobileApp, Found the PII: Installed Mobile App Name, type: string
+name: KnowledgeableUser
+name: Lead
+Object: Lead, Found the PII: Last Name, type: string
+Object: Lead, Found the PII: Last Name, type: string
+Object: Lead, Found the PII: First Name, type: string
+Object: Lead, Found the PII: First Name, type: string
+Object: Lead, Found the PII: Full Name, type: string
+Object: Lead, Found the PII: Company, type: string
+Object: Lead, Found the PII: Address, type: address
+Object: Lead, Found the PII: Phone, type: phone
+Object: Lead, Found the PII: Mobile Phone, type: phone
+Object: Lead, Found the PII: Mobile Phone, type: phone
+Object: Lead, Found the PII: Email, type: email
+Object: Lead, Found the PII: Last Activity, type: date
+Object: Lead, Found the PII: Company D-U-N-S Number, type: string
+Object: Lead, Found the PII: Email Bounced Reason, type: string
+name: LeadCleanInfo
+Object: LeadCleanInfo, Found the PII: Lead Clean Info Name, type: string
+Object: LeadCleanInfo, Found the PII: First Name, type: string
+Object: LeadCleanInfo, Found the PII: First Name, type: string
+Object: LeadCleanInfo, Found the PII: Last Name, type: string
+Object: LeadCleanInfo, Found the PII: Last Name, type: string
+Object: LeadCleanInfo, Found the PII: Email, type: email
+Object: LeadCleanInfo, Found the PII: Phone, type: phone
+Object: LeadCleanInfo, Found the PII: Address, type: address
+Object: LeadCleanInfo, Found the PII: Company Name, type: string
+Object: LeadCleanInfo, Found the PII: Company Name, type: string
+Object: LeadCleanInfo, Found the PII: Company D-U-N-S Number, type: string
+Object: LeadCleanInfo, Found the PII: D&B Company D-U-N-S Number, type: string
+Object: LeadCleanInfo, Found the PII: Data.com Company ID, type: string
+name: LeadFeed
+name: LeadHistory
+name: LeadShare
+name: LeadStatus
+Object: LeadStatus, Found the PII: Api Name, type: string
+name: ListView
+Object: ListView, Found the PII: View Name, type: string
+Object: ListView, Found the PII: View Unique Name, type: string
+name: ListViewChart
+Object: ListViewChart, Found the PII: API Name, type: string
+Object: ListViewChart, Found the PII: Master Language, type: picklist
+name: ListViewChartInstance
+Object: ListViewChartInstance, Found the PII: API Name, type: string
+name: LiveChatSensitiveDataRule
+Object: LiveChatSensitiveDataRule, Found the PII: Developer Name, type: string
+Object: LiveChatSensitiveDataRule, Found the PII: Master Language, type: picklist
+Object: LiveChatSensitiveDataRule, Found the PII: Sensitive Data Rule Name, type: string
+Object: LiveChatSensitiveDataRule, Found the PII: Replacement Text, type: string
+name: LoginEvent
+Object: LoginEvent, Found the PII: Username, type: string
+name: LoginGeo
+name: LoginHistory
+name: LoginIp
+name: LookedUpFromActivity
+name: Macro
+Object: Macro, Found the PII: Macro Name, type: string
+name: MacroHistory
+name: MacroInstruction
+Object: MacroInstruction, Found the PII: Macro Instruction Name, type: string
+name: MacroShare
+name: MailmergeTemplate
+Object: MailmergeTemplate, Found the PII: Name, type: string
+name: MatchingInformation
+Object: MatchingInformation, Found the PII: Name, type: string
+Object: MatchingInformation, Found the PII: Email Address, type: email
+Object: MatchingInformation, Found the PII: Email Address, type: email
+name: MatchingRule
+Object: MatchingRule, Found the PII: Unique Name, type: string
+Object: MatchingRule, Found the PII: Master Language, type: picklist
+Object: MatchingRule, Found the PII: Rule Name, type: string
+name: MatchingRuleItem
+name: MobileApplicationDetail
+Object: MobileApplicationDetail, Found the PII: Name, type: string
+Object: MobileApplicationDetail, Found the PII: Master Language, type: picklist
+Object: MobileApplicationDetail, Found the PII: Device Platform, type: picklist
+Object: MobileApplicationDetail, Found the PII: Device Type, type: picklist
+Object: MobileApplicationDetail, Found the PII: Application Binary File Name, type: string
+Object: MobileApplicationDetail, Found the PII: Application Icon File Name, type: string
+name: Name
+Object: Name, Found the PII: Name, type: string
+Object: Name, Found the PII: Last Name, type: string
+Object: Name, Found the PII: Last Name, type: string
+Object: Name, Found the PII: First Name, type: string
+Object: Name, Found the PII: First Name, type: string
+Object: Name, Found the PII: Email, type: email
+Object: Name, Found the PII: Phone, type: phone
+Object: Name, Found the PII: Username, type: string
+name: NamedCredential
+Object: NamedCredential, Found the PII: Name, type: string
+Object: NamedCredential, Found the PII: Master Language, type: picklist
+name: Note
+name: NoteAndAttachment
+name: OauthToken
+Object: OauthToken, Found the PII: Application Name, type: string
+name: ObjectPermissions
+Object: ObjectPermissions, Found the PII: SObject Type Name, type: picklist
+name: OpenActivity
+name: Opportunity
+Object: Opportunity, Found the PII: Name, type: string
+Object: Opportunity, Found the PII: Stage, type: picklist
+Object: Opportunity, Found the PII: Last Activity, type: date
+name: OpportunityCompetitor
+Object: OpportunityCompetitor, Found the PII: Competitor Name, type: combobox
+name: OpportunityContactRole
+name: OpportunityFeed
+name: OpportunityFieldHistory
+name: OpportunityHistory
+Object: OpportunityHistory, Found the PII: Stage Name, type: picklist
+Object: OpportunityHistory, Found the PII: Stage Name, type: picklist
+name: OpportunityLineItem
+Object: OpportunityLineItem, Found the PII: Opportunity Product Name, type: string
+name: OpportunityPartner
+name: OpportunityShare
+name: OpportunityStage
+Object: OpportunityStage, Found the PII: Api Name, type: string
+Object: OpportunityStage, Found the PII: Forecast Category Name, type: picklist
+name: Order
+Object: Order, Found the PII: Company Authorized Date, type: date
+Object: Order, Found the PII: Billing Address, type: address
+Object: Order, Found the PII: Shipping Address, type: address
+Object: Order, Found the PII: Order Name, type: string
+name: OrderFeed
+name: OrderHistory
+name: OrderItem
+name: OrderItemFeed
+name: OrderItemHistory
+name: OrderShare
+name: OrgWideEmailAddress
+Object: OrgWideEmailAddress, Found the PII: Email Address, type: email
+Object: OrgWideEmailAddress, Found the PII: Email Address, type: email
+Object: OrgWideEmailAddress, Found the PII: Display Name, type: string
+name: Organization
+Object: Organization, Found the PII: Name, type: string
+Object: Organization, Found the PII: Address, type: address
+Object: Organization, Found the PII: Phone, type: phone
+Object: Organization, Found the PII: Language, type: picklist
+Object: Organization, Found the PII: Compliance BCC Email, type: email
+Object: Organization, Found the PII: Instance Name, type: string
+Object: Organization, Found the PII: Monthly Page Views Allowed, type: int
+name: OwnedContentDocument
+name: OwnerChangeOptionInfo
+Object: OwnerChangeOptionInfo, Found the PII: Name, type: string
+name: PackageLicense
+name: Partner
+name: PartnerRole
+Object: PartnerRole, Found the PII: Api Name, type: string
+name: Period
+Object: Period, Found the PII: Quarter Name, type: picklist
+Object: Period, Found the PII: Period Name, type: picklist
+name: PermissionSet
+Object: PermissionSet, Found the PII: Permission Set Name, type: string
+name: PermissionSetAssignment
+name: PermissionSetLicense
+Object: PermissionSetLicense, Found the PII: Developer Name, type: string
+Object: PermissionSetLicense, Found the PII: Master Language, type: picklist
+name: PermissionSetLicenseAssign
+name: PicklistValueInfo
+name: PlatformAction
+Object: PlatformAction, Found the PII: API Name, type: string
+Object: PlatformAction, Found the PII: Confirmation Message, type: string
+Object: PlatformAction, Found the PII: Device Format, type: picklist
+Object: PlatformAction, Found the PII: Icon Height, type: int
+name: PlatformCachePartition
+Object: PlatformCachePartition, Found the PII: Name, type: string
+Object: PlatformCachePartition, Found the PII: Master Language, type: picklist
+name: PlatformCachePartitionType
+Object: PlatformCachePartitionType, Found the PII: Allocated Namespaced Purchased Capacity, type: int
+name: Pricebook2
+Object: Pricebook2, Found the PII: Price Book Name, type: string
+name: Pricebook2History
+name: PricebookEntry
+Object: PricebookEntry, Found the PII: Product Name, type: string
+name: ProcessDefinition
+Object: ProcessDefinition, Found the PII: Name, type: string
+Object: ProcessDefinition, Found the PII: Unique Name, type: string
+name: ProcessInstance
+name: ProcessInstanceHistory
+name: ProcessInstanceNode
+Object: ProcessInstanceNode, Found the PII: Name, type: string
+name: ProcessInstanceStep
+name: ProcessInstanceWorkitem
+name: ProcessNode
+Object: ProcessNode, Found the PII: Name, type: string
+Object: ProcessNode, Found the PII: Unique Name, type: string
+name: Product2
+Object: Product2, Found the PII: Product Name, type: string
+name: Product2Feed
+name: Product2History
+name: Profile
+Object: Profile, Found the PII: Name, type: string
+name: Publisher
+Object: Publisher, Found the PII: Publisher Name, type: string
+Object: Publisher, Found the PII: Publisher Namespace Prefix, type: string
+name: PushTopic
+Object: PushTopic, Found the PII: Topic Name, type: string
+name: QueueSobject
+name: QuickText
+Object: QuickText, Found the PII: Quick Text Name, type: string
+Object: QuickText, Found the PII: Message, type: textarea
+name: QuickTextHistory
+name: QuickTextShare
+name: QuoteTemplateRichTextData
+name: RecentlyViewed
+Object: RecentlyViewed, Found the PII: Name, type: string
+Object: RecentlyViewed, Found the PII: Last Name, type: string
+Object: RecentlyViewed, Found the PII: Last Name, type: string
+Object: RecentlyViewed, Found the PII: First Name, type: string
+Object: RecentlyViewed, Found the PII: First Name, type: string
+Object: RecentlyViewed, Found the PII: Email, type: email
+Object: RecentlyViewed, Found the PII: Phone, type: phone
+Object: RecentlyViewed, Found the PII: Language, type: picklist
+name: RecordType
+Object: RecordType, Found the PII: Name, type: string
+Object: RecordType, Found the PII: Record Type Name, type: string
+Object: RecordType, Found the PII: SObject Type Name, type: picklist
+name: RelationshipDomain
+Object: RelationshipDomain, Found the PII: Relationship Name, type: string
+Object: RelationshipDomain, Found the PII: Names of the Junction Id Lists, type: complexvalue
+name: RelationshipInfo
+Object: RelationshipInfo, Found the PII: Names of the Junction Id Lists, type: complexvalue
+name: Report
+Object: Report, Found the PII: Folder Name, type: string
+Object: Report, Found the PII: Report Name, type: string
+Object: Report, Found the PII: Report Unique Name, type: string
+name: ReportFeed
+name: SamlSsoConfig
+Object: SamlSsoConfig, Found the PII: Name, type: string
+Object: SamlSsoConfig, Found the PII: Master Language, type: picklist
+Object: SamlSsoConfig, Found the PII: Name ID Format, type: string
+Object: SamlSsoConfig, Found the PII: Attribute Name, type: string
+Object: SamlSsoConfig, Found the PII: Request Signature Method, type: picklist
+name: Scontrol
+Object: Scontrol, Found the PII: S-Control Name, type: string
+Object: Scontrol, Found the PII: Filename, type: string
+name: SearchLayout
+name: SearchPromotionRule
+name: SecureAgent
+Object: SecureAgent, Found the PII: Name, type: string
+Object: SecureAgent, Found the PII: Master Language, type: picklist
+Object: SecureAgent, Found the PII: Agent Key, type: string
+name: SecureAgentPlugin
+Object: SecureAgentPlugin, Found the PII: Name, type: string
+name: SecureAgentPluginProperty
+Object: SecureAgentPluginProperty, Found the PII: Property Name, type: string
+name: SecureAgentsCluster
+Object: SecureAgentsCluster, Found the PII: Name, type: string
+Object: SecureAgentsCluster, Found the PII: Master Language, type: picklist
+name: SessionPermSetActivation
+name: SetupAuditTrail
+name: SetupEntityAccess
+name: Site
+Object: Site, Found the PII: Site Name, type: string
+Object: Site, Found the PII: Default Web Address, type: string
+Object: Site, Found the PII: Monthly Page Views Allowed, type: int
+name: SiteDetail
+name: SiteFeed
+name: SiteHistory
+name: Skill
+Object: Skill, Found the PII: Developer Name, type: string
+Object: Skill, Found the PII: Master Language, type: picklist
+Object: Skill, Found the PII: Name, type: string
+name: Solution
+name: SolutionFeed
+name: SolutionHistory
+name: SolutionStatus
+Object: SolutionStatus, Found the PII: Api Name, type: string
+name: StaticResource
+Object: StaticResource, Found the PII: Name, type: string
+name: StreamingChannel
+Object: StreamingChannel, Found the PII: Streaming Channel Name, type: string
+name: StreamingChannelShare
+name: Task
+name: TaskFeed
+name: TaskPriority
+Object: TaskPriority, Found the PII: Api Name, type: string
+name: TaskStatus
+Object: TaskStatus, Found the PII: Api Name, type: string
+name: TenantUsageEntitlement
+Object: TenantUsageEntitlement, Found the PII: Overage Grace, type: percent
+name: TestSuiteMembership
+name: ThirdPartyAccountLink
+Object: ThirdPartyAccountLink, Found the PII: Single Sign-On Provider Name, type: string
+name: TodayGoal
+Object: TodayGoal, Found the PII: Name, type: string
+name: TodayGoalShare
+name: Topic
+Object: Topic, Found the PII: Name, type: string
+name: TopicAssignment
+name: TopicFeed
+name: UndecidedEventRelation
+name: User
+Object: User, Found the PII: Username, type: string
+Object: User, Found the PII: Last Name, type: string
+Object: User, Found the PII: Last Name, type: string
+Object: User, Found the PII: First Name, type: string
+Object: User, Found the PII: First Name, type: string
+Object: User, Found the PII: Full Name, type: string
+Object: User, Found the PII: Company Name, type: string
+Object: User, Found the PII: Company Name, type: string
+Object: User, Found the PII: Address, type: address
+Object: User, Found the PII: Email, type: email
+Object: User, Found the PII: Email Sender Address, type: email
+Object: User, Found the PII: Email Sender Address, type: email
+Object: User, Found the PII: Email Sender Name, type: string
+Object: User, Found the PII: Email Sender Name, type: string
+Object: User, Found the PII: Email Signature, type: textarea
+Object: User, Found the PII: Email Signature, type: textarea
+Object: User, Found the PII: Stay-in-Touch Email Subject, type: string
+Object: User, Found the PII: Stay-in-Touch Email Signature, type: textarea
+Object: User, Found the PII: Stay-in-Touch Email Signature, type: textarea
+Object: User, Found the PII: Stay-in-Touch Email Note, type: string
+Object: User, Found the PII: Phone, type: phone
+Object: User, Found the PII: Mobile, type: phone
+Object: User, Found the PII: Nickname, type: string
+Object: User, Found the PII: Email Encoding, type: picklist
+Object: User, Found the PII: Language, type: picklist
+Object: User, Found the PII: Chatter Email Highlights Frequency, type: picklist
+name: UserAppMenuCustomization
+name: UserAppMenuCustomizationShare
+name: UserAppMenuItem
+Object: UserAppMenuItem, Found the PII: Name, type: string
+Object: UserAppMenuItem, Found the PII: Developer Name, type: string
+Object: UserAppMenuItem, Found the PII: Logo Image URL, type: url
+Object: UserAppMenuItem, Found the PII: Mobile Start Url, type: url
+name: UserEntityAccess
+name: UserFeed
+name: UserFieldAccess
+name: UserLicense
+Object: UserLicense, Found the PII: Name, type: string
+name: UserListView
+name: UserListViewCriterion
+Object: UserListViewCriterion, Found the PII: Column Name, type: string
+name: UserLogin
+name: UserPackageLicense
+name: UserPreference
+name: UserProvAccount
+Object: UserProvAccount, Found the PII: Name, type: string
+Object: UserProvAccount, Found the PII: External Username, type: string
+Object: UserProvAccount, Found the PII: External Email, type: string
+Object: UserProvAccount, Found the PII: External First Name, type: string
+Object: UserProvAccount, Found the PII: External First Name, type: string
+Object: UserProvAccount, Found the PII: External Last Name, type: string
+Object: UserProvAccount, Found the PII: External Last Name, type: string
+name: UserProvAccountStaging
+Object: UserProvAccountStaging, Found the PII: Name, type: string
+Object: UserProvAccountStaging, Found the PII: External Username, type: string
+Object: UserProvAccountStaging, Found the PII: External Email, type: string
+Object: UserProvAccountStaging, Found the PII: External First Name, type: string
+Object: UserProvAccountStaging, Found the PII: External First Name, type: string
+Object: UserProvAccountStaging, Found the PII: External Last Name, type: string
+Object: UserProvAccountStaging, Found the PII: External Last Name, type: string
+name: UserProvMockTarget
+Object: UserProvMockTarget, Found the PII: Name, type: string
+Object: UserProvMockTarget, Found the PII: External Username, type: string
+Object: UserProvMockTarget, Found the PII: External Email, type: string
+Object: UserProvMockTarget, Found the PII: External First Name, type: string
+Object: UserProvMockTarget, Found the PII: External First Name, type: string
+Object: UserProvMockTarget, Found the PII: External Last Name, type: string
+Object: UserProvMockTarget, Found the PII: External Last Name, type: string
+name: UserProvisioningConfig
+Object: UserProvisioningConfig, Found the PII: Name, type: string
+Object: UserProvisioningConfig, Found the PII: Master Language, type: picklist
+name: UserProvisioningLog
+Object: UserProvisioningLog, Found the PII: Name, type: string
+Object: UserProvisioningLog, Found the PII: External Username, type: string
+name: UserProvisioningRequest
+Object: UserProvisioningRequest, Found the PII: Name, type: string
+Object: UserProvisioningRequest, Found the PII: App Name, type: string
+name: UserProvisioningRequestShare
+name: UserRecordAccess
+name: UserRole
+Object: UserRole, Found the PII: Name, type: string
+Object: UserRole, Found the PII: Developer Name, type: string
+name: UserShare
+name: VerificationHistory
+Object: VerificationHistory, Found the PII: Activity Message, type: string
+name: Vote
+name: WebLink
+Object: WebLink, Found the PII: Page or sObject Type Name, type: picklist
+Object: WebLink, Found the PII: Page or sObject Type Name, type: picklist
+Object: WebLink, Found the PII: Name, type: string
+Object: WebLink, Found the PII: Height (in pixels), type: int
