@@ -122,10 +122,6 @@ const map = {
 		CompanyDunsNumber: () => faker.random.alphaNumeric(9),
 		DandbCompanyId: () => faker.random.arrayElement(DandBCompanyIds),
 	},
-
-}
-
-const testMap = {
 	Order: {
 		AccountId: () => faker.random.arrayElement(AccountIds),
 		...getCompoundAddressField(`Billing`),
@@ -134,6 +130,10 @@ const testMap = {
 		EffectiveDate: faker.date.future,
 		Status: () => `Draft`,
 	}
+}
+
+// Enter objects here to test;
+const testMap = {
 }
 
 module.exports = {

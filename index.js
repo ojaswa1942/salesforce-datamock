@@ -5,11 +5,11 @@ const { map: FieldMap, testMap: TestFieldMap } = require("./ObjectFieldMap");
 
 (async () => {
 	let promises = [];
-	for (let objectKey in TestFieldMap) {
+	for (let objectKey in FieldMap) {
 		let promises = [], repeat = entriesPerObject;
 		while(repeat--){
 			let fields = {};
-			Object.entries(TestFieldMap[objectKey]).forEach(([field, valueFn]) => {
+			Object.entries(FieldMap[objectKey]).forEach(([field, valueFn]) => {
 				fields[field] = valueFn();
 			});
 			console.log(`Field ready to be inserted in ${objectKey}:\n`, fields);
